@@ -1,0 +1,36 @@
+/* Mobile*/
+@media (max-width: 740px){
+    .nav > li{
+        display: block;
+    }
+    .bi-search {
+        display: none;
+    }
+    .bi-person {
+        display: none;
+    }
+    .form-1{
+        margin-left: 0px;
+        text-align: center;
+    }
+    .icon-1{
+        display: none;
+    }
+    .end-1{
+        height: 1140px;
+    }
+    .logo-1{
+        margin-left: 19px;
+    }
+
+}
+/*Pc*/
+@media (min-width: 1024px){
+    .mobile-menu-btn{
+        display: none;
+    }
+    .pad-1{
+        margin-top: 55px;
+        margin-left: 55px;
+    }
+}

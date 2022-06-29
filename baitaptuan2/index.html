@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assests/css/main.css">
+    <link rel="stylesheet" href="./assests/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assests/css/responsive.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./assests/css/all.min.css">
+    <title>Công ty MaiA</title>
+</head>
+<body>
+    <div class="wrap">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 content">
+                    <nav class="navbar navbar-expand-lg navbar-light menu-main">
+                        <div class="container-fluid">
+                            <div class="logo-1"><a class="navbar-brand" href="#"><img src="./assests/images/Group 96.png" alt="logo"></a></div>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNavDropdown" style="justify-content: center;">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item"style="margin-left: 28px;">
+                                        <a class="nav-link active text-white" aria-current="page" href="#">Homepage</a>
+                                    </li>
+                                    <li class="nav-item" style="margin-left: 28px;">
+                                        <a class="nav-link text-white" href="#">Giới thiệu</a>
+                                    </li>
+                                    <li class="nav-item dropdown" style="margin-left: 28px; ">
+                                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Sản phẩm</a>
+                                        <ul class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink" style="height: 300px; width:800px;">
+                                            <li><a class="dropdown-item " href="#" style="color: #00A2B2;">Cân công nghiệp</a></li>
+                                                <p>Cân tĩnh</p>
+                                            <li><a class="dropdown-item " href="#" style="color: #00A2B2;">Dây chuyền công nghiệp</a></li>
+                                            <li><a class="dropdown-item " href="#" style="color: #00A2B2;">Máy chế biến nông sản</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown" style="margin-left: 28px;">
+                                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ứng dụng</a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" >
+                                            <li><a class="dropdown-item " href="#" style="color: #00A2B2;">Lĩnh vực chế biến nông sản</a></li>
+                                            <li><a class="dropdown-item " href="#"style="color: #00A2B2;">	Lĩnh vực sản xuất
+                                                công nghiệp</a></li>
+                                            <li><a class="dropdown-item " href="#" style="color: #00A2B2;">Lĩnh vực xi măng</a></li>
+                                            <li><a class="dropdown-item " href="#" style="color: #00A2B2;">Lĩnh vực nhiệt điện</a></li>
+                                            <li><a class="dropdown-item " href="#"style="color: #00A2B2;">Lĩnh vực khai thác khác</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown" style="margin-left: 28px;">
+                                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dịch vụ</a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                            <li><a class="dropdown-item " href="#"style="color: #00A2B2;">Action</a></li>
+                                            <li><a class="dropdown-item " href="#"style="color: #00A2B2;">Another action</a></li>
+                                            <li><a class="dropdown-item " href="#"style="color: #00A2B2;">Something else here</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item"style="margin-left: 28px;">
+                                        <a class="nav-link text-white" href="#">Liên hệ</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="collapse navbar-collapse" id="navbarNavDropdown" style="justify-content: center;">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item"style="margin-left: 12px;">
+                                        <a href="#" id="navbarNavDropdown"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="42px" fill="currentColor" class="bi bi-search text-white" viewBox="0 0 16 16">
+                                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                                        </svg></a>
+                                    </li>
+                                    <li class="nav-item" style="margin-left: 15px;">
+                                        <a href="#" id="navbarNavDropdown"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="42px" fill="currentColor" class="bi bi-person text-white" viewBox="0 0 16 16">
+                                            <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+                                          </svg></a>
+                                    </li>
+                                    <li class="nav-item dropdown" style="margin-left: 15px;">
+                                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Đăng nhập</a>
+                                        <ul class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
+                                            <li><a class="dropdown-item" href="#">Đăng nhập</a></li>
+                                            <li><a class="dropdown-item" href="#">Bạn chưa có tài khoản</a></li>
+                                            <li><a class="dropdown-item" href="#">Tạo tài khoản</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                      </nav>
+                    <div class="row">
+                        <div class="col-12 col-md-6 p-5 " style="color: white; margin-top: 30px; margin-left: 40px; height: 550px;">
+                            <h2>Actualize your technology ideas</h2>
+                            <p>Công ty cổ phần Mai Thị được biết đến như là nhà cung cấp hàng đầu trong lĩnh vực đo lường - điều khiển - tự động hóa tại thị trường Việt Nam. Thành lập năm 2008, Mai Thị luôn giữ được sự phát triển ổn định và là nhà phân phối giải pháp, dịch vụ tin cậy cho các công ty đa quốc gia đang hoạt động tại Việt Nam như Siemens, ABB, Practicon, Laumas, Penko, CAS, Vishay, Ramsey, Autonics, Keli...</p>
+                            <button class="border border-white" style="background: #5ABCC5; color:white; ">About us</button>
+                        </div>
+                        <div class="col-6">
+                        </div>
+                    </div>
+                </div>
+            </div>   
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 content-1">
+                    <div class="cover" style="z-index: 1;"></div>
+                    <div class="row" style="position: relative;z-index: 2;">
+                        <div class="col-12 text-center font-weight-bold" style="color: #00A2B2;padding: 25px;">
+                            <h1 class="our-h1">Our Products</h1>
+                            <p class="our-p" style="color: black;">Main Product & Services</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mb-5">
+            <div class="row">
+                <div class="col-lg-6 col-xl-3">
+                    <div style="background: #5ABCC5;width: 100px;height: 100px;border-radius: 50%; margin: 0 auto; display: flex; justify-content: center;align-items: center;">
+                        <img src="./assests/images/Vector.png" alt="cancn" height="60px" width="60px">
+                    </div>
+                    <p class="our-p" style="margin-top: 10px;"> Cân công nghiệp</p>
+                </div>
+                <div class="col-lg-6 col-xl-3 ">
+                    <div style="background: #5ABCC5;width: 100px;height: 100px;border-radius: 50%; margin: 0 auto; display: flex; justify-content: center;align-items: center;">
+                        <img src="./assests/images/pknn.png" alt="pknn" height="60px" width="60px">
+                
+                    </div>
+                    <p class="our-p" style="margin-top: 10px;"> Phụ kiện ngành nhựa</p>
+                </div>
+                <div class=" col-lg-6 col-xl-3 ">
+                    <div style="background: #5ABCC5;width: 100px;height: 100px;border-radius: 50%; margin: 0 auto; display: flex; justify-content: center;align-items: center;">
+                        <img src="./assests/images/mt.png" alt="mt" height="60px" width="60px">
+                    </div>
+                    <p class="our-p" style="margin-top: 10px;"> Quan trắc môi trường</p>
+                </div>
+                <div class=" col-lg-6 col-xl-3 ">
+                    <div style="background: #5ABCC5;width: 100px;height: 100px;border-radius: 50%; margin: 0 auto; display: flex; justify-content: center;align-items: center;">
+                        <img src="./assests/images/tdh.png" alt="tdh" height="60px" width="60px">
+                    </div>
+                    <p class="our-p" style="margin-top: 10px;"> Tự động hóa</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 content-1">
+                    <div class="cover" style="z-index: 1;"></div>
+                    <div class="row" style="position: relative;z-index: 2;">
+                        <div class="col-12 text-center font-weight-bold" style="color: #00A2B2;">
+                            <h1>Our Servies</h1>
+                            <p style="color: black;">Main Product & Services</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mb-5">
+            <div class="row">
+                <div class=" col-lg-6 col-xl-3">
+                    <div style="background: #5ABCC5;width: 100px;height: 100px;border-radius: 50%; margin: 0 auto; display: flex; justify-content: center;align-items: center;">
+                        <img src="./assests/images/mptv.png" alt="cancn" height="60px" width="60px">
+                    </div>
+                    <p class="our-p" style="margin-top: 10px;"> Miễn phí dịch vụ tư vấn 
+                        cho khách hàng</p>
+                </div>
+                <div class=" col-lg-6 col-xl-3 ">
+                    <div style="background: #5ABCC5;width: 100px;height: 100px;border-radius: 50%; margin: 0 auto; display: flex; justify-content: center;align-items: center;">
+                        <img src="./assests/images/giamgia.png" alt="pknn" height="60px" width="60px">
+                
+                    </div>
+                    <p class="our-p" style="margin-top: 10px;"> Giảm giá cho khách hàng 
+                        thân thiết</p>
+                </div>
+                <div class=" col-lg-6 col-xl-3 ">
+                    <div style="background: #5ABCC5;width: 100px;height: 100px;border-radius: 50%; margin: 0 auto; display: flex; justify-content: center;align-items: center;">
+                        <img src="./assests/images/hotro.png" alt="mt" height="60px" width="60px">
+                    </div>
+                    <p class="our-p" style="margin-top:10px ;">Hỗ trợ khách hàng 24/7</p>
+                </div>
+                <div class="col-lg-6 col-xl-3">
+                    <div style="background: #5ABCC5;width: 100px;height: 100px;border-radius: 50%; margin: 0 auto; display: flex; justify-content: center;align-items: center;">
+                        <img src="./assests/images/vanchuyen.png" alt="tdh" height="60px" width="60px">
+                    </div>
+                    <p class="our-p" style="margin-top: 10px;"> Miễn phí vận chuyển trên 
+                        toàn quốc với đơn hàng 
+                        trên 150.000 USD</p>
+                </div>
+            </div>
+        </div>
+        <div class="container icon-1">
+            <div class="row">
+                <div class="col-12 content-1">
+                    <div class="cover" style="z-index: 1;"></div>
+                    <div class="row" style="position: relative;z-index: 2;">
+                        <div class="col-12 text-center font-weight-bold" style="color: #00A2B2;">
+                            <h1>Sản phẩm nổi bật</h1>
+                            <p style="color: black;">Best seller products</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 icon-1" >
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img
+                            src="./assests/images/Rectangle 4.1.png"
+                            alt=""></div>
+                    <div class="swiper-slide"><img
+                            src="./assests/images/Rectangle 4.1 (1).png"
+                            alt=""></div>
+                    <div class="swiper-slide"><img
+                            src="./assests/images/Rectangle 4.1 (2).png"
+                            alt=""></div>
+                    <div class="swiper-slide"><img
+                            src="./assests/images/Rectangle 4.1 (3).png"
+                            alt=""></div>
+                    <div class="swiper-slide"><img
+                            src="./assests/images/Rectangle 4.1 (4).png"
+                            alt=""></div>
+                    <div class="swiper-slide"><img
+                            src="./assests/images/Rectangle 4.1.png"
+                            alt=""></div>
+                    <div class="swiper-slide"><img
+                            src="./assests/images/Rectangle 4.1 (1).png"
+                            alt=""></div>
+                    <div class="swiper-slide"><img
+                            src="./assests/images/Rectangle 4.1 (2).png"
+                            alt=""></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <div class="container-fluid icon-1">
+            <div class="row">
+                <div class="bg-image" style="background-image: url('./assests/images/Rectangle\ 2.1.png');">
+                    <div class="cover-1" style="z-index: 1;"></div>
+                    <div class="row" style="position: relative;z-index: 2;">
+                        <div class="col-12 text-center font-weight-bold" style="color: rgb(14, 167, 159);">
+                            <h2>Đối tác tiêu biểu</h2>
+                            <p style="color:black;">Our Customer</p>
+                            
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                              <div class=" col-lg-6 col-xl-3 col-6 text-center" style="margin-left: 100px;">
+                                <img src="./assests/images/siemens.png" style="margin-top: 56px; width: 200px; height: 60px;" alt="">
+                              </div>
+                              <div class="col-lg-6 col-xl-3 col-6 text-center">
+                                <img src="./assests/images/mettler.png" style="margin-top: 35px; width: 260px; height: 175px; margin-left: 150px;" alt="">
+                              </div>
+                              <div class="col-lg-6 col-xl-3 col-6 text-center">
+                                <img src="./assests/images/autonics.png" style="margin-top: 48px; width: 245px; height: 75px; margin-left: 200px;" alt="">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="container">
+                            <div class="row">
+                              <div class="col-lg-6 col-xl-3 col-6 text-center">
+                                <img src="./assests/images/laumas.png" style="margin-top: 43px; width: 234px; height: 106px; margin-left: 150px;" alt="">
+                              </div>
+                              <div class="col-lg-6 col-xl-3 col-6 text-center">
+                                <img src="./assests/images/thermo.png" style="margin-top: 53px; width: 237px; height: 66px; margin-left: 200px;" alt="">
+                              </div>
+                              <div class="col-lg-6 col-xl-3 col-6 text-center">
+                                <img src="./assests/images/094023569a4d9f0c25fff84b4560a3a3 copy 1.png" style="margin-top: 7px; width: 168px; height: 168px; margin-left: 300px;" alt="">
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid p-5 icon-1" style="background: #F0FDFE; height: 364px;">
+            <div class="row">
+                <div class="col-12">
+                    <div class="col-12 text-center font-weight-bold" style="color: #00A2B2;">
+                        <h1>Message for Maithi</h1>
+                    </div>
+                    <form>
+                        <div class="row form-1">
+                            <div class="col-md-3 col-12 mb-2">
+                                <div class="form-group">
+                                    <input type="email" placeholder="Tên" class="form-control"
+                                        id="exampleInputEmail1" aria-describedby="emailHelp">
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-12 mb-2">
+                                <div class="form-group">
+                                    <input type="email" placeholder="Số điện thoại" class="form-control"
+                                        id="exampleInputEmail1" aria-describedby="emailHelp">
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-12 mb-2">
+                                <div class="form-group">
+                                    <input type="email" placeholder="Email" class="form-control"
+                                        id="exampleInputEmail1" aria-describedby="emailHelp">
+                                </div>
+                            </div>
+                            <div class="col-md-9 col-12">
+                                <div class="form-group">
+                                    <input type="Message" placeholder="Message" class="form-control"
+                                        id="exampleInputEmail1" aria-describedby="emailHelp">
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-12">
+                                <div>
+                                    <button type="button" class="btn btn-primary">Submit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid icon-1" style="background: #00A2B2;">
+            <div class="row">
+                <div class="col-md-3 col-12 text-center">
+                    <img src="./assests/images/Group 96.png" alt="" style="width: 100px; margin-top: 70px;">
+                </div>
+                <div class="col-md-6 col-12 text-center" >
+                    <p style="margin-top: 70px; color: white;">Công ty cổ phần Mai Thị - Nhà cung cấp hàng đầu trong lĩnh vực cân điện tử, phần mềm công nghiệp và các giải pháp về tự đông hóa trong lĩnh vực sản xuất, quản lý.</p>
+                </div>
+                <div class="col-1 text-center icon-1">
+                    <a href=""><img src="./assests/images/Facebook.png" alt="" style="margin-top: 70px;"></a>
+                </div>
+                <div class="col-1 text-center icon-1">
+                    <a href=""><img src="./assests/images/Twitter.png" alt="" style="margin-top: 70px;"></a>
+                </div>
+                <div class="col-1 text-center icon-1">
+                    <a href=""><img src="./assests/images/Google +.png" alt="" style="margin-top: 70px;"></a>
+                </div>
+                <div class="col-12 text-center">
+                    <hr style="height:3px;border-width:0;background-color:white">
+                </div>
+                <div class="container" style="height: 200px; color: white;">
+                    <div class="row">
+                        <div class="col-md-3 col-12 text-center" style="height: 200px;">
+                            <ul class="ds" style="list-style: none;">
+                                <li class="ds-item"><h5>SẢN PHẨM</h5></li>
+                                <hr style="height:3px;border-width:0;background-color:#03565F">
+                                <li class="ds-item">Cân công nghiệp</li>
+                                <li class="ds-item">Máy chế biến nông sản</li>
+                                <li class="ds-item">Dây chuyền công nghiệp</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-12 text-center" style="height: 200px;">
+                            <ul class="ds" style="list-style: none;">
+                                <li class="ds-item"><h5>SẢN PHẨM</h5></li>
+                                <hr style="height:3px;border-width:0;background-color:#03565F">
+                                <li class="ds-item">Cân công nghiệp</li>
+                                <li class="ds-item">Máy chế biến nông sản</li>
+                                <li class="ds-item">Dây chuyền công nghiệp</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-12 text-center" style="height: 200px;">
+                            <ul class="ds" style="list-style: none;">
+                                <li class="ds-item"><h5>DỊCH VỤ</h5></li>
+                                <hr style="height:3px;border-width:0;background-color:#03565F">
+                                <li class="ds-item">Lĩnh vực chế biến nông sản</li>
+                                <li class="ds-item">Lĩnh vự sản xuất công nghiệP</li>
+                                <li class="ds-item">Lĩnh vực xi măng</li>
+                                <li class="ds-item">Lĩnh vực nhiệt điện</li>
+                                <li class="ds-item">Lĩnh vực khách thác</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-12 text-center" style="height: 200px;">
+                            <ul class="ds" style="list-style: none;">
+                                <li class="ds-item"><h5>ỨNG DỤNG</h5></li>
+                                <hr style="height:3px;border-width:0;background-color:#03565F">
+                                <li class="ds-item">Dịch vụ sau bán hàng</li>
+                                <li class="ds-item">Dịch vụ tư vấn khoa học công nghệ</li>
+                                <li class="ds-item">Dây chuyền công nghiệp</li>
+                            </ul>
+                        </div>>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            slidesPerGroup: 3,
+            loop: true,
+            loopFillGroupWithBlank: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+</body>
+</html>
